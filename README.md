@@ -1,4 +1,4 @@
-# creatorrc
+# Creatorrc
 Create torrc files optimized for speed, security, or avoiding captchas
 
 ## Why?
