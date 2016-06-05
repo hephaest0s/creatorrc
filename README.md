@@ -4,7 +4,12 @@ Create torrc files optimized for speed, security, or avoiding captchas
 ## Why?
 [Tor](https://torproject.org) uses a torrc file to specify some of the Tor-software routing behavior.
 With creatorrc, you can choose to optimize your torrc for speed, xor security, xor avoiding capchas.
-By running the program, creattorc will create a tor_config.txt file in your working directory containing lines to add to your torrc file.
+Creattorc will create a tor_config.txt file in your working directory containing lines to add to your torrc file.
+
+```shell
+sudo python creatorrc.py
+```
+*Creatorrc does not work in [Tails](https://tails.boum.org/), yet.
 
 ### Overview
 #### Sector - secure-tor
