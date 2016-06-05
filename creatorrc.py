@@ -138,8 +138,7 @@ def help():
 	print( "Select one of the following options:\n")
 	print( "--sector\tSecure tor configuration." )
 	print( "--speetor\tIf speed is what you need." )
-	print( "--evator\tFor evading captchas." )
-	print( "--notor\t\tAccess sites that block tor." )
+	print( "--evator\tFor evading captchas on traditional websites." )
 	print( "--help\t\tShow this helpful message.\n" )
 	
 	msg = ul("SecTor") + " is " + red("NOT RECOMMENDED") + " by the torproject (torproject.org)." 
