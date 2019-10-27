@@ -9,6 +9,13 @@ Creattorc will create a tor_config.txt file in your working directory containing
 ```shell
 sudo python creatorrc.py
 ```
+
+If you see this error:
+`ImportError: No module named stem.descriptor.remote`
+
+simply run...
+`pip install stem`
+
 *Creatorrc does not work in [Tails](https://tails.boum.org/), yet.
 
 ### Overview
